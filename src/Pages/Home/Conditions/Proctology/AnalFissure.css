@@ -1,0 +1,53 @@
+/* HEADINGS */
+.page-title {
+  font-size: 42px;
+  padding: 20px 0;
+}
+
+.bg-page-0 {
+  background-color: rgb(174 220 211);
+}
+.bg-page-1 {
+  background-color: rgb(198, 235, 224);
+}
+
+.image-fit {
+  width: 90%;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* COLORS */
+.c0 {
+  color: #fff !important;
+}
+
+.c5 {
+  color: #549c7e !important;
+}
+
+/* PADDINGS */
+
+/* FORMS */
+
+.sidebar form {
+  background-color: #c9e4d3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* BUTTONS */
+.btnCTA {
+  background-color: #26c042;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 3px solid #008719;
+}
+.btnCTAGhost {
+  background-color: #cde0d0;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 3px solid #008719;
+  color: #444;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Roboto+Slab:wght@300;400;500;600;700&display=swap");
+
+.navbar-nav .nav-link {
+  color: #000000;
+}
+.dropend .dropdown-toggle {
+  color: salmon;
+  margin-left: 1em;
+}
+.dropdown-item:hover {
+  background-color: lightsalmon;
+  color: #000000;
+}
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+}
+
+.container-head {
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+
+  padding: 15px 10px;
+  /* margin-top: 25px; */
+}
+
+.head-bg {
+  /* background-color: #004caa; */
+}
+
+.userName {
+  color: #004caa;
+  margin-left: 5px;
+}
+
+.btn {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btn-danger {
+  font-family: Raleway-SemiBold;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fc5185;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid #fc5185;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background: #fc5185;
+  border: 2px solid #fc5185;
+}
+
+/* for mobile responsive */
+
+@media (max-width: 992px) {
+  /* 2: Navbar */
+  .btn {
+    margin-left: 57px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  .container-head {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 769px) {
+  /* 2: Navbar */
+  .icon-head {
+    display: flex;
+  }
+}
+@media (max-width: 426px) {
+  .list-item {
+    padding: 15px 0;
+  }
+
+  .btn {
+    margin: 15px auto;
+  }
+}
